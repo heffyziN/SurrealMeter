@@ -1,0 +1,506 @@
+[
+  {
+    "model": "paintings.artwork",
+    "pk": 1,
+    "fields": {
+      "title": "Bathing woman",
+      "artist": "Жоан Миро",
+      "year": 1925,
+      "image": "",
+      "style_tag": "miro",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 2,
+    "fields": {
+      "title": "Dog Barking-at the Moon",
+      "artist": "Жоан Миро",
+      "year": 1926,
+      "image": "",
+      "style_tag": "miro",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 3,
+    "fields": {
+      "title": "Landscape with Snake",
+      "artist": "Жоан Миро",
+      "year": 1927,
+      "image": "",
+      "style_tag": "miro",
+      "description": "пейзаж"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 4,
+    "fields": {
+      "title": "Still Life with Lamp",
+      "artist": "Жоан Миро",
+      "year": 1928,
+      "image": "",
+      "style_tag": "miro",
+      "description": "натюрморт"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 5,
+    "fields": {
+      "title": "Portrait of Mrs Mills in 1750 (after Constable)",
+      "artist": "Жоан Миро",
+      "year": 1929,
+      "image": "",
+      "style_tag": "miro",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 6,
+    "fields": {
+      "title": "Cap d'home",
+      "artist": "Жоан Миро",
+      "year": 1932,
+      "image": "",
+      "style_tag": "miro",
+      "description": "абстракция"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 7,
+    "fields": {
+      "title": "Drawing-Collage with a Hat",
+      "artist": "Жоан Миро",
+      "year": 1933,
+      "image": "",
+      "style_tag": "miro",
+      "description": "коллаж, карандаш, бумага"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 8,
+    "fields": {
+      "title": "Figures in Front of a Metamorphosis",
+      "artist": "Жоан Миро",
+      "year": 1936,
+      "image": "",
+      "style_tag": "miro",
+      "description": "фигуративная живопись"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 9,
+    "fields": {
+      "title": "Aidez l'Espagne (Help Spain)",
+      "artist": "Жоан Миро",
+      "year": 1937,
+      "image": "",
+      "style_tag": "miro",
+      "description": "плакат"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 10,
+    "fields": {
+      "title": "Portrait II",
+      "artist": "Жоан Миро",
+      "year": 1938,
+      "image": "",
+      "style_tag": "miro",
+      "description": "фигуративная живопись"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 11,
+    "fields": {
+      "title": "Portrait of Garcia Lorca",
+      "artist": "Сальвадор Дали",
+      "year": 1924,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Портрет"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 12,
+    "fields": {
+      "title": "Coupes 6",
+      "artist": "Сальвадор Дали",
+      "year": 1925,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Портрет"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 13,
+    "fields": {
+      "title": "Harlequin",
+      "artist": "Сальвадор Дали",
+      "year": 1927,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Портрет, масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 14,
+    "fields": {
+      "title": "Inaugural Gooseflesh",
+      "artist": "Сальвадор Дали",
+      "year": 1928,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Живопись, масло, картон"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 15,
+    "fields": {
+      "title": "Accommodations of Desire",
+      "artist": "Сальвадор Дали",
+      "year": 1928,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Коллаж, масло, доска"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 16,
+    "fields": {
+      "title": "Portrait of Paul Eluard",
+      "artist": "Сальвадор Дали",
+      "year": 1929,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Портрет, Масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 17,
+    "fields": {
+      "title": "The Moon",
+      "artist": "Сальвадор Дали",
+      "year": 1928,
+      "image": "",
+      "style_tag": "dali",
+      "description": "небесный пейзаж, пейзаж"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 18,
+    "fields": {
+      "title": "Invisible Sleeping Woman, Horse, Lion",
+      "artist": "Сальвадор Дали",
+      "year": 1930,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 19,
+    "fields": {
+      "title": "Phantasmagoria",
+      "artist": "Сальвадор Дали",
+      "year": 1930,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Масло, панель"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 20,
+    "fields": {
+      "title": "The Average Bureaucrat",
+      "artist": "Сальвадор Дали",
+      "year": 1930,
+      "image": "",
+      "style_tag": "dali",
+      "description": "Пейзаж"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 21,
+    "fields": {
+      "title": "A famous man",
+      "artist": "Рене Магритт",
+      "year": 1926,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "символическая живопись"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 22,
+    "fields": {
+      "title": "A panic in the Middle Ages",
+      "artist": "Рене Магритт",
+      "year": 1927,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "cимволическая живопись"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 23,
+    "fields": {
+      "title": "The empty mask",
+      "artist": "Рене Магритт",
+      "year": 1928,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 24,
+    "fields": {
+      "title": "The tree of knowledge",
+      "artist": "Рене Магритт",
+      "year": 1929,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 25,
+    "fields": {
+      "title": "The titanic days",
+      "artist": "Рене Магритт",
+      "year": 1930,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 26,
+    "fields": {
+      "title": "Project for a mural, Norine House, Brussels",
+      "artist": "Рене Магритт",
+      "year": 1932,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "гуашь, картон"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 27,
+    "fields": {
+      "title": "A storm",
+      "artist": "Рене Магритт",
+      "year": 1932,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "гуашь"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 28,
+    "fields": {
+      "title": "The Human Condition",
+      "artist": "Рене Магритт",
+      "year": 1933,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 29,
+    "fields": {
+      "title": "Collective Invention",
+      "artist": "Рене Магритт",
+      "year": 1934,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 30,
+    "fields": {
+      "title": "Bather between Light and Darkness",
+      "artist": "Рене Магритт",
+      "year": 1935,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 31,
+    "fields": {
+      "title": "The revealing of the present",
+      "artist": "Рене Магритт",
+      "year": 1936,
+      "image": "",
+      "style_tag": "magritte",
+      "description": "символическая живопись"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 32,
+    "fields": {
+      "title": "Chimera",
+      "artist": "Макс Эрнст",
+      "year": 1921,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "коллаж, гуашь, тушь, бумага"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 33,
+    "fields": {
+      "title": "Illustration for \"The Misfortunes of the Immortals\"",
+      "artist": "Макс Эрнст",
+      "year": 1922,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "иллюстрация"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 34,
+    "fields": {
+      "title": "Castor and Pollution",
+      "artist": "Макс Эрнст",
+      "year": 1923,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 35,
+    "fields": {
+      "title": "Gala Éluard",
+      "artist": "Макс Эрнст",
+      "year": 1924,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 36,
+    "fields": {
+      "title": "Eve, the Only One Left to Us",
+      "artist": "Макс Эрнст",
+      "year": 1925,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, картон"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 37,
+    "fields": {
+      "title": "Pomegranate Flower",
+      "artist": "Макс Эрнст",
+      "year": 1926,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 38,
+    "fields": {
+      "title": "Cage, Forest and Black Sun Cage",
+      "artist": "Макс Эрнст",
+      "year": 1927,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 39,
+    "fields": {
+      "title": "Petrified Forest",
+      "artist": "Макс Эрнст",
+      "year": 1929,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 40,
+    "fields": {
+      "title": "The Hundred-headless Woman Opens her August Sleeve",
+      "artist": "Макс Эрнст",
+      "year": 1929,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "коллаж"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 41,
+    "fields": {
+      "title": "Human Form",
+      "artist": "Макс Эрнст",
+      "year": 1931,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "коллаж, масло, дерево"
+    }
+  },
+  {
+    "model": "paintings.artwork",
+    "pk": 42,
+    "fields": {
+      "title": "The Embalmed Forest",
+      "artist": "Макс Эрнст",
+      "year": 1933,
+      "image": "",
+      "style_tag": "ernst",
+      "description": "масло, холст"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surreal Meter</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; max-width: 550px; margin: 40px auto; padding: 20px; background: #f8f9fa; color: #333; }
+        h1 { text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .upload-box { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        input[type="file"] { display: block; width: 100%; padding: 10px; margin: 15px 0; border: 2px dashed #ccc; border-radius: 8px; text-align: center; cursor: pointer; }
+        input[type="file"]:hover { border-color: #4a90e2; background: #f0f7ff; }
+        button { width: 100%; padding: 12px; background: #2c3e50; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 500; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #34495e; }
+        .error { background: #fee; color: #c00; padding: 10px; border-radius: 6px; margin-top: 15px; text-align: center; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>🎨 Surreal Meter</h1>
+    <p class="subtitle">Загрузите изображение, чтобы определить сюрреалистический стиль</p>
+    
+    <div class="upload-box">
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="image" accept="image/jpeg, image/png, image/webp" required>
+            <button type="submit">Анализировать</button>
+        </form>
+    </div>
+</body>
+</html>
